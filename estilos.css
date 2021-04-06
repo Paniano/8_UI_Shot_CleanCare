@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 40px;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	background-color: #DDEFFE;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	background-color: #fff;
+	width: 600px;
+	height: 400px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.hero{
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0 0 20px;
+}
+
+.logo{
+	height: 10%;
+	display: flex;
+	align-items: flex-end;
+}
+
+h2{
+	color: #251812;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.heroText{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	padding-right: 20px;
+	height: 80%;
+}
+
+h1{
+	color: #251812;
+	font-size: 32px;
+}
+
+.agenda{
+	margin-top: 8px;
+	background-color: #E4BDD1;
+	color: #26122a;
+	padding: 0 22px;
+}
+
+.agenda:hover{
+	border: 1px solid rgba(0,0,0,0.4);
+}
+
+.info{
+	padding-left: 22px;
+	height: 45px;
+	background-color: #d1c7bb;
+	color: #26122a;
+}
+
+.info:hover{
+	border: 1px solid rgba(0,0,0,0.4);
+}
+
+.social{
+	background-image: url(image.jpg);
+	background-size: 100%;
+	background-position: center;
+	transform: scaleX(-1);
+	display: grid;
+	transition: 1s;
+}
+
+.social:hover{
+	background-size: 150%;
+}
+
+.redes{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.menu, .facebook, .instagram{
+	transform: scaleX(-1);
+	text-align: center;
+	width: 44px;
+	height: 44px;
+	background-color: #26122a;
+}
+
+.brand{
+	color: #FFF;
+	font-size: 16px;
+}
